@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Model;
 using DataLayer;
+using BusinessLogic;
 
 namespace BusinessLogic
 {
@@ -12,7 +13,7 @@ namespace BusinessLogic
         {
             return productRepository.GetProducts();
         }
-
+         
         public void AddProduct(Product product)
         {
             productRepository.AddProduct(product);
@@ -30,3 +31,6 @@ namespace BusinessLogic
     }
 } 
 
+ 
+       
+            
