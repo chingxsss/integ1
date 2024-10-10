@@ -15,7 +15,7 @@ namespace BusinessLogic
         }
          
         public void AddProduct(Product product)
-        {
+        { 
             productRepository.AddProduct(product);
         }
 
